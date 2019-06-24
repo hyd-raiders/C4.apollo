@@ -7,7 +7,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
-Use apollo_portal_office;
+#Use apollo_portal_office;
 
 # Dump of table app
 # ------------------------------------------------------------
@@ -304,8 +304,8 @@ CREATE TABLE `Authorities` (
 # ------------------------------------------------------------
 INSERT INTO `ServerConfig` (`Key`, `Value`, `Comment`)
 VALUES
-    ('apollo.portal.envs', 'dev,fat', '可支持的环境列表'),
-    ('organizations', '[{\"orgId\":\"dev\",\"orgName\":\"研发中心\"},{\"orgId\":\"test\",\"orgName\":\"测试部门\"}]', '部门列表'),
+    ('apollo.portal.envs', 'dev,fat,pro', '可支持的环境列表'),
+    ('organizations', '[{\"orgId\":\"dev\",\"orgName\":\"研发中心\"},{\"orgId\":\"test\",\"orgName\":\"测试部门\"},{\"orgId\":\"yunwei\",\"orgName\":\"哥哥姐姐\"}]', '部门列表'),
     ('superAdmin', 'apollo', 'Portal超级管理员'),
     ('api.readTimeout', '10000', 'http接口read timeout'),
     ('consumer.token.salt', 'someSalt', 'consumer token salt'),
