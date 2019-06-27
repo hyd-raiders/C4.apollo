@@ -305,3 +305,14 @@ pro.meta=http://192.168.108.200:52013,http://192.168.108.201:52013
 /home/apollo/prod_admin/scripts/startup.sh
 ```
 
+
+
+## client接入
+
+[java](./java.md)
+
+
+
+## apollo 管理
+
+[管理](./manage.md)
