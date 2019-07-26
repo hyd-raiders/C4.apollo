@@ -5,7 +5,7 @@ apollo config
 
 #### 部署图
 
-![](./docs/apollo.png)
+![](./docs/apolloV2.png)
 
 
 
@@ -211,6 +211,10 @@ vim /etc/rc.d/rc.local
 apollo/admin
 
 在系统信息中查看所有节点
+
+
+
+## just do it  uat环境
 
 
 
