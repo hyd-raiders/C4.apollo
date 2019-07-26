@@ -78,6 +78,9 @@ EOF
 
 # 执行jar 或者 war部署 (Dapollo 默认开启)
 java -jar -Dapollo=true xxxxxx.jar
+
+# war部署时需要修改log4j2的配置
+根据实际情况将log4j2-dev.xml 或者 log4j2-prod.xml 改为 log4j2.xml
 ```
 
 
